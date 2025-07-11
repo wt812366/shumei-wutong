@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>  
+  <meta charset="UTF-8" />
+  <title>李在明就职仪式</title>
+  <style>
+    body {
+      text-align: center;      font-family: Arial, sans-serif;
+    }
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+    .marker {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: red;
+      border-radius: 50%;
+      border: 2px solid white;
+      cursor: pointer;
+    }
+    .tooltip {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.75);
+      color: white;
+      padding: 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+      display: none;
+      font-size: 14px;
+    }
+    .marker:hover + .tooltip {
+      display: block;
+    }
+  </style>
+</head>
+<body> 
+  <h2>点击红点查看人物信息</h2>
+  <div class="image-container">
+    <!-- 李在明就职仪式.jpg -->
+    <img src="李在明就职仪式.jpg" alt="人物合影" width="1000" />
+    <!-- 标记点1：李钟奭 -->
+    <a href="page-li.html"class="marker"style="top:150px;left:100px;"></a>
+        <div class="tooltip" style="top: 170px; left: 130px;">李钟奭</div>
+    <!-- 标记点2：金民锡 -->    
+    <a href="page-jin.html"class="marker"style="top:150px;left:300px;"></a>
+        <div class="tooltip" style="top: 170px; left: 330px;">金民锡</div>
+    <!-- 标记点3：李在明 -->
+    <a href="page-lizaiming.html"class="marker"style="top:150px;left:450px;"></a>
+        <div class="tooltip" style="top: 170px; left: 480px;">李在明</div>
+    <!-- 标记点4：姜勋植 -->
+    <a href="page-jiang.html"class="marker"style="top:130px;left:610px;"></a>
+        <div class="tooltip" style="top: 170px; left: 640px;">姜勋植</div>
+    <!-- 标记点5：魏圣洛 -->
+    <a href="page-wei.html"class="marker"style="top:180px;left:750px;"></a>
+        <div class="tooltip" style="top: 170px; left: 780px;">魏圣洛</div>
+    <!-- 标记点6：黄仁权 -->
+    <a href="page-huang.html"class="marker"style="top:150px;left:900px;"></a>
+        <div class="tooltip" style="top: 170px; left: 930px;">黄仁权</div>
+
+<!-- 你可以继续添加更多人物 -->
+<!-- 文字说明区域 -->
+   <div class="description-area">
+  <p>本合影拍摄于 <strong>2025年6月</strong> 李在明就职期间</p >
+  </div>
+</body>
+</html>
